@@ -55,6 +55,8 @@ ul {
     letter-spacing: 0.02em;
     background-color: var(--header-background-color);
     border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 
 
      
@@ -71,6 +73,7 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 93px;
 
     color: var(--accent-color);
     text-decoration: none;
@@ -78,7 +81,7 @@ ul {
 
 .header-logo {
     color: var(--logo-color);
-    margin-right: 93px;
+    
     
  }
 
@@ -357,21 +360,15 @@ ul {
     color: var(--hero-color);
  }
 
- .footer-adress {
- 
- }
 
-.footer-adress,
-.footer-contacts {
-    margin-bottom: 9px;
-}
 
-.footer-contacts:last-child {
+
+
+/* .footer-contacts:last-child {
     margin-bottom: 0;
-}
+} */
 
- .footer-adress .link,
- .footer-contacts  {
+ .footer-adress  {
     
     font-size: 14px;
     line-height: 1.71;
@@ -383,8 +380,13 @@ ul {
     
  }
 
- .footer-contacts  {
+ .footer-adress:last-child {
+    margin-bottom: 0px;
+}
+
+ .footer-contacts.link  {
     color: var(--footer-contacts-color);
+    text-decoration: none;
  }
 
 /* Buttons */
